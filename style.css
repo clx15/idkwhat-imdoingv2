@@ -1,0 +1,121 @@
+.gradient-background {
+    background: linear-gradient(300deg, #F6D6FF, #E9D6FF, #FFDBD6);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    
+  }
+
+  .gradient-background-2{
+    background: linear-gradient(300deg, #EEA5A6, #B784B7, #E493B3);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.micro-5-regular {
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.dancing-script-1 {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .pozacueu{
+    border-radius: 50%;
+  }
+
+  .bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #A58FFF;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+  }
+
+  .dosis-2 {
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+    gap:2rem;
+}
+.darkutzpoza{
+    border-radius: 50%;
+    height: 140px;
+    text-align: center;
+}
+.funfacts{
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+}
+
+h3{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #A58FFF;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;   
+}
+.parent2{
+    text-align: center;
+}
+
+hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.btn:hover {
+    background: #A58FFF;
+    
+    text-decoration: none;
+}
+
+a:hover {
+    color: #eaf6f6;
+}
+.btn {
+    background: #F6D6FF;
+    
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
